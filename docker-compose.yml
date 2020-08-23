@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  app:
+    build: .
+    image: marciojusto/eureka-registry-server:latest
+    container_name: eureka-registry-server
+    ports:
+    - 5000:5000
